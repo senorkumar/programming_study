@@ -4,7 +4,7 @@
 #Node.data is the data in the Node
 
 
-#Note: I didnt see that intersecting lists have the same tails, which would have let me end earlier in the case of non intersecting lists
+#Note: I didnt see that intersecting lists have the same tails, which would have let me end earlier in the case of non intersecting lists	
 def intersection(head_1, head_2):
 	if not head_1 or not head_2:
 		return False
